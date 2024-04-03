@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="top">
+      <h1 id="title">Generic Survey Form</h1>
+      <p id="description">Ensures a <strong>Generic</strong> but Smooth Transition to the Core Website</p>
+    </div>
+    <form id="survey-form">
+      <div>
+        <label if="name-label" for="name">Name: <input id="name" type="text" placeholder="Provide your Name" required/></label>
+      </div>
+      <div>
+        <label id="email-label" for="email">Email: <input id="email" type="email" placeholder="Provide your Email" required/></label>
+      </div>
+      <div>
+        <label id="number-label" for="number">Age: <input id="number" type="number" min="13" max="120" placeholder="Age" required/></label>
+      </div>
+      <hr color="grey" size="2">
+      <div>
+        <p>How did you hear about us</p>
+        <select id="dropdown" value="" required>
+          <option disabled selected>Select an option</option>
+          <option value="1">Facebook</option>
+          <option value="2">YouTube</option>
+          <option value="3">Newsletter</option>
+          <option value="4">Other</option>
+        </select>
+      </div>
+      <hr color="grey" size="2">
+      <div>
+        <p>Select Your Gender</p>
+        <div>
+          <label for="male"><input id="male" name="gender" type="radio" value="male">Male</label>
+        </div>
+        <div>
+          <label for="female"><input id="female" name="gender" type="radio" value="female">Female</label>
+        </div>
+        <div>
+          <label for="other"><input id="other" name="gender" type="radio" value="other" checked>Other</label>
+        </div>
+      </div>
+      <hr color="grey" size="2">
+      <div>
+        <p>Select some of your hobbies</p>
+        <div>
+          <label for="coding"><input id="coding" type="checkbox" value="coding">Coding</label>
+        </div>
+        <div>
+          <label for="reading"><input id="reading" type="checkbox" value="reading">Reading</label>
+        </div>
+        <div>
+          <label for="writing"><input id="writing" type="checkbox" value="writing">Writing</label>
+        </div>
+        <div>
+          <label for="exercise"><input id="exercise" type="checkbox" value="exercise">Exercise</label>
+        </div>
+        <div>
+          <label for="videoGames"><input id="videoGames" type="checkbox" value="videoGames">Video Games</label>
+        </div>
+        <div>
+          <label for="gardening"><input id="gardening" type="checkbox" value="gardening">Gardening</label>
+        </div>
+        <div>
+          <label for="listeningToMusic"><input id="listeningToMusic" type="checkbox" value="listeningToMusic">Listening to Music</label>
+        </div>
+      </div>
+      <hr color="grey" size="2">
+      <div class="form-group">
+        <p>If you have any suggestions</p>
+        <textarea
+          id="suggestions" class="input-textarea" name="comment" placeholder="Enter your suggestion here..."
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit" id="submit" class="submit-button"><strong>Submit</strong></button>
+      </div>
+    </form>
+  </body>
+</html>

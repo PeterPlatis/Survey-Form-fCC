@@ -1,0 +1,70 @@
+html{
+  background-color:#a2a2a2a2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+}
+.top{
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+body{
+  background: #a5a5a5a5;
+  font-family: Tahoma, arial;
+  font-size: 1.1rem;
+  box-shadow: 0 0 1rem;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  max-width: 90vw;
+  width: 700px;
+  height: auto;
+}
+
+form{
+  padding: 30px;
+  
+}
+
+label{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+textarea {
+  display: block;
+  margin: auto;
+  min-height: 100px;
+  width: 60%;
+  padding: 1rem;
+  resize: vertical;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+input, select{
+  display: inline-block;
+  border: 5px solid;
+  border-color: white;
+  border-radius: 40px;
+  margin-left: 5px;
+  
+}
+.submit-button {
+  font-size: large;
+  display: block;
+  margin: auto;
+  width: 75%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+hr{
+  margin-top: 20px;
+}
